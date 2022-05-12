@@ -5,8 +5,6 @@
 <test name = "RegressionOfChrome">
 <parameter name = "browsers" value = "Chrome"></parameter>
 <classes>
-<class name = "piit.AutomationTrainingProgram.Browser2"></class>
-<class name = "PageObjectModel.ForgotPasswordPage"></class>
 <class name = "piit.AutomationTrainingProgram.Signout"></class>
 </classes>
 </test>
@@ -14,8 +12,6 @@
 <test name = "RegressionOfEdge">
 <parameter name = "browsers" value = "Edge"></parameter>
 <classes>
-<class name = "piit.AutomationTrainingProgram.Browser2"></class>
-<class name = "PageObjectModel.ForgotPasswordPage"></class>
 <class name = "piit.AutomationTrainingProgram.Signout"></class>
 </classes>
 </test>
@@ -24,8 +20,6 @@
 <test name = "RegressionOfFirefox">
 <parameter name = "browsers" value = "Firefox"></parameter>
 <classes>
-<class name = "piit.AutomationTrainingProgram.Browser2"></class>
-<class name = "PageObjectModel.ForgotPasswordPage"></class>
 <class name = "piit.AutomationTrainingProgram.Signout"></class>
 </classes>
 </test>
