@@ -10,6 +10,7 @@ public class Home {
 	@FindBy(name = "email") WebElement Ids;
 	@FindBy(name = "pass") WebElement Psswords;
 	@FindBy(linkText = "Forgot password?") WebElement Forgot;
+	@FindBy(name = "login") WebElement loginbutton;
 	
 	public Home(WebDriver driver) {
 		this.driver = driver;
@@ -17,16 +18,22 @@ public class Home {
 		
 	}
 
-	public void Email() {
-		Ids.sendKeys("JohnCena@email.com");		
+	public void Email(String name) {
+		Ids.clear();
+		Ids.sendKeys(name);	
 	}
 	
-	public void PsswordFieldsEnters() {
-		Psswords.sendKeys("Silver");
+	public void PsswordFieldsEnters(String name) {
+		Psswords.clear();
+		Psswords.sendKeys(name);
 	}
 	
 	public void ForgotLinkClick() {
 		Forgot.click();
 	}
 	
+	public void loginbt() {
+		loginbutton.click();
+	}
+
 }

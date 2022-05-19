@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "Adhoc" parallel = "tests" thread-count = "6">
+<listeners>
+<listener class-name = "listeners.IListeners"></listener>
+</listeners>
 
 <test name = "RegressionOfChrome">
 <parameter name = "browsers" value = "Chrome"></parameter>
 <classes>
-<class name = "piit.AutomationTrainingProgram.Signout"></class>
+<class name = "piit.AutomationTrainingProgram.NewTest"></class>
 </classes>
 </test>
 
 <test name = "RegressionOfEdge">
 <parameter name = "browsers" value = "Edge"></parameter>
 <classes>
-<class name = "piit.AutomationTrainingProgram.Signout"></class>
+<class name = "piit.AutomationTrainingProgram.NewTest"></class>
 </classes>
 </test>
-
-
 <test name = "RegressionOfFirefox">
 <parameter name = "browsers" value = "Firefox"></parameter>
 <classes>
-<class name = "piit.AutomationTrainingProgram.Signout"></class>
+<class name = "piit.AutomationTrainingProgram.NewTest"></class>
 </classes>
 </test>
 </suite>

@@ -2,43 +2,12 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-11T22:22:09 EDT" name="Adhoc" finished-at="2022-05-11T22:22:40 EDT" duration-ms="30935">
+  <suite started-at="2022-05-17T22:00:16 EDT" name="Adhoc" finished-at="2022-05-17T22:01:05 EDT" duration-ms="48498">
     <groups>
     </groups>
-    <test started-at="2022-05-11T22:22:09 EDT" name="RegressionOfChrome" finished-at="2022-05-11T22:22:38 EDT" duration-ms="28254">
-      <class name="piit.AutomationTrainingProgram.Signout">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Signout@6572421]" started-at="2022-05-11T22:22:09 EDT" name="beforeClass" finished-at="2022-05-11T22:22:17 EDT" duration-ms="7529" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@6572421]" started-at="2022-05-11T22:22:17 EDT" name="beforeClass" finished-at="2022-05-11T22:22:17 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:1, instance:piit.AutomationTrainingProgram.Signout@6572421]" started-at="2022-05-11T22:22:17 EDT" name="f" finished-at="2022-05-11T22:22:32 EDT" duration-ms="14956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationTrainingProgram.Signout@6572421]" started-at="2022-05-11T22:22:32 EDT" name="TextVerificationMethod" finished-at="2022-05-11T22:22:38 EDT" depends-on-methods="piit.AutomationTrainingProgram.Signout.f" duration-ms="5679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TextVerificationMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@6572421]" started-at="2022-05-11T22:22:38 EDT" name="afterClass" finished-at="2022-05-11T22:22:38 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- piit.AutomationTrainingProgram.Signout -->
-    </test> <!-- RegressionOfChrome -->
-    <test started-at="2022-05-11T22:22:09 EDT" name="RegressionOfEdge" finished-at="2022-05-11T22:22:38 EDT" duration-ms="28365">
-      <class name="piit.AutomationTrainingProgram.Signout">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Signout@6aeb35e6]" started-at="2022-05-11T22:22:09 EDT" name="beforeClass" finished-at="2022-05-11T22:22:19 EDT" duration-ms="9632" status="PASS">
+    <test started-at="2022-05-17T22:00:16 EDT" name="RegressionOfEdge" finished-at="2022-05-17T22:01:03 EDT" duration-ms="46911">
+      <class name="piit.AutomationTrainingProgram.NewTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@35e2d654]" started-at="2022-05-17T22:00:16 EDT" name="beforeClass" finished-at="2022-05-17T22:00:27 EDT" duration-ms="10605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,27 +18,98 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@6aeb35e6]" started-at="2022-05-11T22:22:19 EDT" name="beforeClass" finished-at="2022-05-11T22:22:19 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:1, instance:piit.AutomationTrainingProgram.Signout@6aeb35e6]" started-at="2022-05-11T22:22:19 EDT" name="f" finished-at="2022-05-11T22:22:32 EDT" duration-ms="13275" status="PASS">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@35e2d654]" started-at="2022-05-17T22:00:27 EDT" name="f" data-provider="Providers" finished-at="2022-05-17T22:00:41 EDT" duration-ms="14134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationTrainingProgram.Signout@6aeb35e6]" started-at="2022-05-11T22:22:32 EDT" name="TextVerificationMethod" finished-at="2022-05-11T22:22:38 EDT" depends-on-methods="piit.AutomationTrainingProgram.Signout.f" duration-ms="5406" status="PASS">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@35e2d654]" started-at="2022-05-17T22:00:41 EDT" name="f" data-provider="Providers" finished-at="2022-05-17T22:00:56 EDT" duration-ms="14170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LongSilver@aol.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fries3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TextVerificationMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@6aeb35e6]" started-at="2022-05-11T22:22:38 EDT" name="afterClass" finished-at="2022-05-11T22:22:38 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.NewTest@35e2d654]" started-at="2022-05-17T22:00:56 EDT" name="afterClass" finished-at="2022-05-17T22:01:03 EDT" duration-ms="7198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- piit.AutomationTrainingProgram.Signout -->
+      </class> <!-- piit.AutomationTrainingProgram.NewTest -->
     </test> <!-- RegressionOfEdge -->
-    <test started-at="2022-05-11T22:22:09 EDT" name="RegressionOfFirefox" finished-at="2022-05-11T22:22:40 EDT" duration-ms="30935">
-      <class name="piit.AutomationTrainingProgram.Signout">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Signout@38d8f54a]" started-at="2022-05-11T22:22:09 EDT" name="beforeClass" finished-at="2022-05-11T22:22:24 EDT" duration-ms="14458" status="PASS">
+    <test started-at="2022-05-17T22:00:16 EDT" name="RegressionOfChrome" finished-at="2022-05-17T22:01:04 EDT" duration-ms="47200">
+      <class name="piit.AutomationTrainingProgram.NewTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@12468a38]" started-at="2022-05-17T22:00:16 EDT" name="beforeClass" finished-at="2022-05-17T22:00:25 EDT" duration-ms="8428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@12468a38]" started-at="2022-05-17T22:00:25 EDT" name="f" data-provider="Providers" finished-at="2022-05-17T22:00:43 EDT" duration-ms="17778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@12468a38]" started-at="2022-05-17T22:00:43 EDT" name="f" data-provider="Providers" finished-at="2022-05-17T22:00:56 EDT" duration-ms="13182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LongSilver@aol.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fries3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.NewTest@12468a38]" started-at="2022-05-17T22:00:56 EDT" name="afterClass" finished-at="2022-05-17T22:01:04 EDT" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.NewTest -->
+    </test> <!-- RegressionOfChrome -->
+    <test started-at="2022-05-17T22:00:16 EDT" name="RegressionOfFirefox" finished-at="2022-05-17T22:01:05 EDT" duration-ms="48498">
+      <class name="piit.AutomationTrainingProgram.NewTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@7d8995e]" started-at="2022-05-17T22:00:16 EDT" name="beforeClass" finished-at="2022-05-17T22:00:32 EDT" duration-ms="15183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,23 +120,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@38d8f54a]" started-at="2022-05-11T22:22:24 EDT" name="beforeClass" finished-at="2022-05-11T22:22:24 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:1, instance:piit.AutomationTrainingProgram.Signout@38d8f54a]" started-at="2022-05-11T22:22:24 EDT" name="f" finished-at="2022-05-11T22:22:35 EDT" duration-ms="11151" status="PASS">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@7d8995e]" started-at="2022-05-17T22:00:32 EDT" name="f" data-provider="Providers" finished-at="2022-05-17T22:00:46 EDT" duration-ms="14758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationTrainingProgram.Signout@38d8f54a]" started-at="2022-05-11T22:22:35 EDT" name="TextVerificationMethod" finished-at="2022-05-11T22:22:40 EDT" depends-on-methods="piit.AutomationTrainingProgram.Signout.f" duration-ms="5277" status="PASS">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.NewTest@7d8995e]" started-at="2022-05-17T22:00:46 EDT" name="f" data-provider="Providers" finished-at="2022-05-17T22:01:00 EDT" duration-ms="13581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LongSilver@aol.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fries3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TextVerificationMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@38d8f54a]" started-at="2022-05-11T22:22:40 EDT" name="afterClass" finished-at="2022-05-11T22:22:40 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.NewTest@7d8995e]" started-at="2022-05-17T22:01:00 EDT" name="afterClass" finished-at="2022-05-17T22:01:05 EDT" duration-ms="4734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- piit.AutomationTrainingProgram.Signout -->
+      </class> <!-- piit.AutomationTrainingProgram.NewTest -->
     </test> <!-- RegressionOfFirefox -->
   </suite> <!-- Adhoc -->
 </testng-results>
